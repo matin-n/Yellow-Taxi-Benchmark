@@ -81,5 +81,5 @@ hours = pandas_df.groupby("passenger_count", sort=True)["tip_percentage"].mean()
 
 - Data Source: [Yellow Trip Record Data](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
 - Libraries: [`cuDF`](https://github.com/rapidsai/cudf), [`Pandas`](https://github.com/pandas-dev/pandas), [`Requests`](https://requests.readthedocs.io/en/latest/)
-- Docker Container: [rapidsai:22.08-cuda11.5-runtime-ubuntu20.04-py3.9](nvcr.io/nvidia/rapidsai/rapidsai:22.08-cuda11.5-runtime-ubuntu20.04-py3.9)
+- Docker Container: [rapidsai:22.08-cuda11.5-runtime-ubuntu20.04-py3.9](http://nvcr.io/nvidia/rapidsai/rapidsai:22.08-cuda11.5-runtime-ubuntu20.04-py3.9)
 - Source Code: [`benchmark.ipynb`](benchmark/benchmark.ipynb)
